@@ -3,6 +3,9 @@
     <custom-toolbar/>
     <custom-home/>
     <custom-about/>
+    <custom-blog/>
+    <custom-contact/>
+    <custom-footer/>
   </v-app>
 </template>
 
@@ -11,6 +14,9 @@ import { mapGetters } from 'vuex'
 import toolbar from './components/toolbar.vue'
 import home from './components/home.vue'
 import about from './components/about.vue'
+import footer from './components/footer.vue'
+import contact from './components/contact.vue'
+import blog from './components/blog.vue'
 
 export default {
   layout: 'basic',
@@ -18,6 +24,9 @@ export default {
     customToolbar : toolbar,
     customHome: home,
     customAbout: about,
+    customBlog: blog,
+    customContact: contact,
+    customFooter: footer,
   },
 
   metaInfo () {

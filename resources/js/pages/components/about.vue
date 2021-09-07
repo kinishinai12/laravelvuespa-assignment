@@ -70,7 +70,7 @@
   <!-- end of how it works(2) -->
 
   <!-- how it works (2) -->
-  <div :style="{'background': '#EEEEEE'}">
+  <div :style="{'background': '#E8EAF6'}">
     <v-container>
       Carousel here
     </v-container>
@@ -78,7 +78,7 @@
   <!-- end of how it works (2) -->
 
   <!-- how it works (3) -->
-  <div :style="{'background': '#EEEEEE'}" class="pb-16">
+  <div :style="{'background': '#E8EAF6'}" class="pb-16">
   <v-container >
 
     <h1 class="d-flex justify-center mb-12">Trusted By Over 9,000+ Businesses</h1>
@@ -185,14 +185,14 @@
   <!-- end of how it works (4) -->
 
   <!-- how it works (5) -->
-  <div :style="{'background': '#EEEEEE'}" class="pa-12">
+  <div :style="{'background': '#E8EAF6'}" class="pa-12">
     <v-container>
       <h1 class="d-flex justify-center mb-12">Fun Facts About Our Agency</h1>
 
       <v-row class="d-flex justify-center">
 
         <v-col cols="12" md="2" class="d-flex justify-center">
-          <v-card color="#EEEEEE" flat>
+          <v-card color="#E8EAF6" flat>
             <div class="d-flex justify-center mb-4">
               <v-icon x-large color="blue">mdi-gift</v-icon>
             </div>
@@ -204,7 +204,7 @@
         </v-col>
 
         <v-col cols="12" md="2" class="d-flex justify-center">
-          <v-card color="#EEEEEE" flat>
+          <v-card color="#E8EAF6" flat>
             <div class="d-flex justify-center mb-4">
               <v-icon x-large color="deep-orange">mdi-heart</v-icon>
             </div>
@@ -216,7 +216,7 @@
         </v-col>
 
         <v-col cols="12" md="2" class="d-flex justify-center">
-          <v-card color="#EEEEEE" flat>
+          <v-card color="#E8EAF6" flat>
             <div class="d-flex justify-center mb-4">
               <v-icon x-large color="green">mdi-medal</v-icon>
             </div>
@@ -228,7 +228,7 @@
         </v-col>
 
         <v-col cols="12" md="2" class="d-flex justify-center">
-          <v-card color="#EEEEEE" flat>
+          <v-card color="#E8EAF6" flat>
             <div class="d-flex justify-center mb-4">
               <v-icon x-large color="deep-orange">mdi-basket</v-icon>
             </div>
@@ -240,7 +240,7 @@
         </v-col>
 
         <v-col cols="12" md="2" class="d-flex justify-center">
-          <v-card color="#EEEEEE" flat>
+          <v-card color="#E8EAF6" flat>
             <div class="d-flex justify-center mb-4">
               <v-icon x-large color="amber">mdi-bell</v-icon>
             </div>

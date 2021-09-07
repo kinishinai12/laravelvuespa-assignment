@@ -5,9 +5,6 @@
           <div>
             <v-container>
               <v-toolbar flat>
-              <!-- <v-btn icon class="hidden-xs-only" >
-                <v-icon>mdi-arrow-left</v-icon>
-              </v-btn> -->
 
               <v-toolbar-title ><h3><v-icon left color="blue">mdi-vector-intersection</v-icon>Smart</h3></v-toolbar-title>
 
