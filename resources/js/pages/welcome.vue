@@ -3,6 +3,9 @@
     <custom-toolbar/>
     <custom-home/>
     <custom-about/>
+    <custom-our-team/>
+    <custom-how-it-works/>
+    <custom-pricing/>
     <custom-blog/>
     <custom-contact/>
     <custom-footer/>
@@ -17,6 +20,9 @@ import about from './components/about.vue'
 import footer from './components/footer.vue'
 import contact from './components/contact.vue'
 import blog from './components/blog.vue'
+import ourteam from './components/ourteam.vue'
+import howitworks from './components/howitworks.vue'
+import pricing from './components/pricing.vue'
 
 export default {
   layout: 'basic',
@@ -27,6 +33,9 @@ export default {
     customBlog: blog,
     customContact: contact,
     customFooter: footer,
+    customOurTeam: ourteam,
+    customHowItWorks: howitworks,
+    customPricing: pricing,
   },
 
   metaInfo () {
