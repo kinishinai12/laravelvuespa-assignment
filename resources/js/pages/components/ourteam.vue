@@ -1,7 +1,7 @@
 <template>
   <v-sheet>
     <v-container class="pa-12">
-      <h1 class="d-flex justify-center">Meet Our Team</h1>
+      <h1 class="text-center text-h4 font-weight-medium indigo--text text--darken-4">Meet Our Team</h1>
       <v-row class="mt-12">
 
         <v-col cols="12" md="4">
@@ -9,8 +9,8 @@
             <v-img width="350" src="https://cdn.vuetifyjs.com/images/cards/cooking.png"></v-img>
           </v-card>
           <div class="pa-5">
-            <h3 class="d-flex justify-center">Christina Hawkings</h3>
-            <p class="font-italic text--secondary d-flex justify-center">Head of SEO</p>
+            <h3 class="text-center text-h6 font-weight-medium indigo--text text--darken-4">Christina Hawkings</h3>
+            <p class="font-italic text--secondary text-center">Head of SEO</p>
 
             <p class="text-center">Johnathan is our co-founder and has developed search strategies for a variety of clients for over 5 years.</p>
             <v-row>
@@ -43,8 +43,8 @@
           </v-card>
 
           <div class="pa-5">
-            <h3 class="d-flex justify-center">Andreas Johansons</h3>
-            <p class="font-italic text--secondary d-flex justify-center">Marketing Manager</p>
+            <h3 class="text-center text-h6 font-weight-medium indigo--text text--darken-4">Andreas Johansons</h3>
+            <p class="font-italic text--secondary text-center">Marketing Manager</p>
 
             <p class="text-center">Andres fell in love with marketing at the school and looks forward to being part of the industry for years.</p>
             <v-row>
@@ -77,8 +77,8 @@
           </v-card>
 
           <div class="pa-5">
-            <h3 class="d-flex justify-center">Alexandra Smiths</h3>
-            <p class="font-italic text--secondary d-flex justify-center">SEO Specialist</p>
+            <h3 class="text-center text-h6 font-weight-medium indigo--text text--darken-4">Alexandra Smiths</h3>
+            <p class="font-italic text--secondary text-center">SEO Specialist</p>
 
             <p class="text-center">Graduating with a degree in Spanish,<br/> English and French, she has always loved writing.</p>
             <v-row>

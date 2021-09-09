@@ -1,7 +1,7 @@
 <template>
   <v-sheet>
     <v-container class="pt-16 pb-16">
-      <h1 class="d-flex justify-center">Our Blog</h1>
+      <h1 class="text-center text-h4 font-weight-medium indigo--text text--darken-4">Our Blog</h1>
       <v-row class="mt-10">
 
         <v-col cols="12" md="4">

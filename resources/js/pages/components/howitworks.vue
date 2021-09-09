@@ -7,7 +7,7 @@
 
           <v-row>
             <v-col cols="12" md="12">
-              <h2>How It Works.</h2>
+              <p class="text-h4 font-weight-medium indigo--text text--darken-4">How It Works.</p>
             </v-col>
 
             <v-col cols="12" md="12">

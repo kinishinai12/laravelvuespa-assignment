@@ -6,9 +6,7 @@
             <v-container>
               <v-toolbar flat>
 
-              <v-toolbar-title ><h3><v-icon left color="blue">mdi-vector-intersection</v-icon>Smart</h3></v-toolbar-title>
-
-              <v-spacer></v-spacer>
+              <v-toolbar-title class="mr-5"><p class="ma-0 font-weight-bold text-h5 indigo--text text--darken-4"><v-icon large left color="blue">mdi-vector-combine</v-icon>Smart</p></v-toolbar-title>
 
               <v-btn text>Home</v-btn>
               <v-btn text >About</v-btn>
@@ -19,7 +17,7 @@
 
               <v-spacer></v-spacer>
 
-              <v-btn text><v-icon left>mdi-login</v-icon>Log in</v-btn>
+              <v-btn text class="mr-1"><v-icon left>mdi-login</v-icon>Log in</v-btn>
               <v-btn color="#1E88E5" class="white--text">Sign-Up</v-btn>
 
             </v-toolbar>

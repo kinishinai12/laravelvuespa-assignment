@@ -53,15 +53,9 @@ export default {
 </script>
 
 <style scoped>
-/* .top-right {
-  position: absolute;
-  right: 10px;
-  top: 18px;
+*{
+  font-family: 'Nunito', sans-serif;
 }
-
-.title {
-  font-size: 85px;
-} */
 </style>
 
 

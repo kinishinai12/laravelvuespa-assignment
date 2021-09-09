@@ -6,7 +6,7 @@
         <v-col cols="12" md="6">
           <v-row>
             <v-col cols="12" md="12">
-              <h2>Get in touch</h2>
+              <p class="text-h5 font-weight-medium indigo--text text--darken-4">Get in touch</p>
             </v-col>
             <v-col cols="12" md="12">
               <v-text-field hide-details label="Full Name*" outlined></v-text-field>
@@ -29,7 +29,7 @@
         <v-col cols="12" md="6">
           <v-row>
             <v-col cols="12" md="12">
-              <h2>How to find us</h2>
+              <p class="text-h5 font-weight-medium indigo--text text--darken-4">How to find us</p>
             </v-col>
             <v-col cols="12" md="12">
               <v-card width="600" height="270">

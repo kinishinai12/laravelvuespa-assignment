@@ -2,25 +2,20 @@
 <v-sheet>
   <!-- start of how it works(1) -->
   <v-container class="pt-16 pb-16">
-    <h1 class="d-flex justify-center">How It Works</h1>
+    <p class="text-center text-h4 font-weight-medium indigo--text text--darken-4">How It Works</p>
     <v-row class="mt-10">
 
       <v-col cols="12" md="4">
 
         <v-hover v-slot="{ hover }" open-delay="200">
         <v-card class="mx-auto" max-width="444" :elevation="hover ? 16 : 2" :class="{ 'on-hover': hover }">
-          <div class="d-flex justify-center">
+          <div class="d-flex justify-center pt-10">
             <v-icon x-large color="teal">mdi-briefcase-search</v-icon>
           </div>
-          <v-card-title class="d-flex justify-center">Search Opportunities</v-card-title>
-          <v-card-text class="d-flex justify-center">
-            <p class="text--h4">Curabitur quamtis etsum lacus etsumis nulatis iaculis etsum vitae etsum ets nisle varius.</p>
+          <v-card-title class="d-flex justify-center indigo--text text--darken-4 font-weight-bold">Search Opportunities</v-card-title>
+          <v-card-text>
+            <p class="pl-5 pr-5 text-subtitle-1 text-center">Curabitur quamtis etsum lacus etsumis nulatis iaculis etsum vitae etsum ets nisle varius.</p>
           </v-card-text>
-          <v-card-actions>
-            <v-btn text color="deep-purple accent-4">
-              Learn More
-            </v-btn>
-          </v-card-actions>
         </v-card>
         </v-hover>
 
@@ -30,18 +25,13 @@
 
         <v-hover v-slot="{ hover }" open-delay="200">
         <v-card class="mx-auto" max-width="444" :elevation="hover ? 16 : 2" :class="{ 'on-hover': hover }">
-          <div class="d-flex justify-center">
+          <div class="d-flex justify-center pt-10">
             <v-icon x-large color="red">mdi-diamond-stone</v-icon>
           </div>
-          <v-card-title class="d-flex justify-center">Reach Clients</v-card-title>
-          <v-card-text class="d-flex justify-center">
-            <p class="text--h4">Curabitur quamtis etsum lacus etsumis nulatis iaculis etsum vitae etsum ets nisle varius.</p>
+          <v-card-title class="d-flex justify-center indigo--text text--darken-4 font-weight-bold">Reach Clients</v-card-title>
+          <v-card-text>
+            <p class="pl-5 pr-5 text-subtitle-1 text-center">Curabitur quamtis etsum lacus etsumis nulatis iaculis etsum vitae etsum ets nisle varius.</p>
           </v-card-text>
-          <v-card-actions>
-            <v-btn text color="deep-purple accent-4">
-              Learn More
-            </v-btn>
-          </v-card-actions>
         </v-card>
         </v-hover>
       </v-col>
@@ -50,18 +40,13 @@
 
         <v-hover v-slot="{ hover }" open-delay="200">
           <v-card class="mx-auto" max-width="444" :elevation="hover ? 16 : 2" :class="{ 'on-hover': hover }">
-            <div class="d-flex justify-center">
+            <div class="d-flex justify-center pt-10">
               <v-icon x-large color="blue">mdi-cash-plus</v-icon>
             </div>
-            <v-card-title class="d-flex justify-center">Get Rewarded</v-card-title>
-            <v-card-text class="d-flex justify-center">
-              <p class="text--h4">Curabitur quamtis etsum lacus etsumis nulatis iaculis etsum vitae etsum ets nisle varius.</p>
+            <v-card-title class="d-flex justify-center indigo--text text--darken-4 font-weight-bold">Get Rewarded</v-card-title>
+            <v-card-text >
+              <p class="pl-5 pr-5 text-subtitle-1 text-center">Curabitur quamtis etsum lacus etsumis nulatis iaculis etsum vitae etsum ets nisle varius.</p>
             </v-card-text>
-            <v-card-actions>
-              <v-btn text color="deep-purple accent-4">
-                Learn More
-              </v-btn>
-            </v-card-actions>
           </v-card>
         </v-hover>
       </v-col>
@@ -81,7 +66,7 @@
   <div :style="{'background': '#E8EAF6'}" class="pb-16">
   <v-container >
 
-    <h1 class="d-flex justify-center mb-12">Trusted By Over 9,000+ Businesses</h1>
+    <h1 class="text-center text-h4 font-weight-medium indigo--text text--darken-4 mb-12">Trusted By Over 9,000+ Businesses</h1>
 
     <v-row class="d-flex justify-center mb-5">
       <v-col cols="12" md="2">
@@ -166,7 +151,7 @@
   <v-container class="pa-1 mb-12">
       <v-row>
           <v-col cols="12" md="6" class="pl-16 pr-16 pt-16">
-            <h1 class="mb-5 mt-16" >Discover how we can help you to grow your business fast.</h1>
+            <h1 class="text-h4 font-weight-medium indigo--text text--darken-4 mb-5 mt-16" >Discover how we can help you to grow your business fast.</h1>
 
             <p mb-3 class="">Anticas quia voluptas sit aspernatur netsum demo ets ipsam voluptatem lorem fugit, seditum netis velas net nesciunt.</p>
             <ul class="mb-5 pa-1">
@@ -187,7 +172,7 @@
   <!-- how it works (5) -->
   <div :style="{'background': '#E8EAF6'}" class="pa-12">
     <v-container>
-      <h1 class="d-flex justify-center mb-12">Fun Facts About Our Agency</h1>
+      <h1 class="text-center text-h4 font-weight-medium indigo--text text--darken-4 mb-12">Fun Facts About Our Agency</h1>
 
       <v-row class="d-flex justify-center">
 
