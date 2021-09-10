@@ -56,8 +56,66 @@
 
   <!-- how it works (2) -->
   <div :style="{'background': '#E8EAF6'}">
-    <v-container>
-      Carousel here
+    <v-container class="pt-16 pb-16 pr-10 pl-10">
+        <v-carousel class="mt-12" cycle="true" :show-arrows="false" vertical-delimiters="right" height="365" hide-delimiter-background>
+          <v-carousel-item>
+            <v-row>
+              <v-col md="6" class="">
+                  <v-card class="d-flex justify-center" max-width="600" max-height="400" rounded="true">
+                    <iframe width="560" height="365" src="https://www.youtube.com/embed/bsrBPgikjsk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  </v-card>
+              </v-col>
+              <v-col md="6" class="pt-9">
+                  <div class="pt-16">
+                    <v-icon color="green" x-large>mdi-comment-quote-outline</v-icon>
+
+                    <p class="mr-12 pr-12 text--secondary text-display-3">Nemo enimat ipsam voluptatem quia voluptas situm ets aspernatis netsum loris fugit, sed quia magnitus honoratis quis ratione sequi etum nets.</p>
+
+                    <p class="text-subtitle-1 font-weight-bold indigo--text text--darken-4">JENNIFER SMITH<span class="text-subtitle-2">  — Designer <span class="red--text">@EpicThemes</span></span></p>
+                  </div>
+              </v-col>
+            </v-row>
+          </v-carousel-item>
+
+          <v-carousel-item>
+            <v-row>
+              <v-col md="6" class="">
+                  <v-card class="d-flex justify-center" max-width="600" max-height="400" rounded="true">
+                    <iframe width="560" height="365" src="https://www.youtube.com/embed/bsrBPgikjsk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  </v-card>
+              </v-col>
+              <v-col md="6" class="pt-9">
+                  <div class="pt-16">
+                    <v-icon color="green" x-large>mdi-comment-quote-outline</v-icon>
+
+                    <p class="mr-12 pr-12 text--secondary text-display-3">Nemo enimat ipsam voluptatem quia voluptas situm ets aspernatis netsum loris fugit, sed quia magnitus honoratis quis ratione sequi etum nets.</p>
+
+                    <p class="text-subtitle-1 font-weight-bold indigo--text text--darken-4">JOHN DOE<span class="text-subtitle-2">  — General Manager <span class="red--text">@BeSmart</span></span></p>
+                  </div>
+              </v-col>
+            </v-row>
+          </v-carousel-item>
+
+          <v-carousel-item>
+            <v-row>
+              <v-col md="6" class="">
+                  <v-card class="d-flex justify-center" max-width="600" max-height="400" rounded="true">
+                    <iframe width="560" height="365" src="https://www.youtube.com/embed/bsrBPgikjsk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  </v-card>
+              </v-col>
+              <v-col md="6" class="pt-9">
+                  <div class="pt-16">
+                    <v-icon color="green" x-large>mdi-comment-quote-outline</v-icon>
+
+                    <p class="mr-12 pr-12 text--secondary text-display-3">Nemo enimat ipsam voluptatem quia voluptas situm ets aspernatis netsum loris fugit, sed quia magnitus honoratis quis ratione sequi etum nets.</p>
+
+                    <p class="text-subtitle-1 font-weight-bold indigo--text text--darken-4">EMILY RICHARDS<span class="text-subtitle-2">  — Copywriter <span class="red--text">@Books-Online</span></span></p>
+                  </div>
+              </v-col>
+            </v-row>
+          </v-carousel-item>
+        </v-carousel>
+
     </v-container>
   </div>
   <!-- end of how it works (2) -->
@@ -245,7 +303,8 @@
 
 <script>
 export default {
-  name:'about'
+  name:'about',
+
 }
 </script>
 

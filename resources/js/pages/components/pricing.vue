@@ -112,78 +112,78 @@
 
     <!-- amazing features -->
     <div :style="{'background': '#E8EAF6'}">
-    <v-container class="pa-1 mb-12">
-      <h2 class="text-center text-h4 font-weight-medium indigo--text text--darken-4 pt-8">Amazing Features</h2>
+    <v-container class="pa-12 mb-12">
+      <h2 class="text-center text-h4 font-weight-medium indigo--text text--darken-4 pt-5">Amazing Features</h2>
 
-      <v-row class="pt-8 d-flex justify-center">
+      <v-row class="pa-8 d-flex justify-center">
 
-        <v-col md="4">
+        <v-col cols="12" md="4">
           <div class="d-flex flex-row">
             <div>
-              <v-icon x-large left class="mt-3">mdi-diamond-stone</v-icon>
+              <v-icon x-large left class="mt-3" color="green">mdi-diamond-stone</v-icon>
             </div>
             <div class="float-left pa-1">
-              <h4>Support 24/7</h4>
+              <h4 class="indigo--text text--darken-4">Support 24/7</h4>
               <p>Utise wisi enim nets venias, quis tation ullamcorper nets lobotis nisle consequat.</p>
             </div>
           </div>
         </v-col>
 
-        <v-col md="4">
+        <v-col cols="12" md="4">
           <div class="d-flex flex-row">
             <div>
-              <v-icon x-large left class="mt-3">mdi-diamond-stone</v-icon>
+              <v-icon x-large left class="mt-3" color="blue">mdi-account-group-outline</v-icon>
             </div>
             <div class="float-left pa-1">
-              <h4>Support 24/7</h4>
+              <h4 class="indigo--text text--darken-4">User Friendly</h4>
               <p>Utise wisi enim nets venias, quis tation ullamcorper nets lobotis nisle consequat.</p>
             </div>
           </div>
         </v-col>
 
-        <v-col md="4">
+        <v-col cols="12" md="4">
           <div class="d-flex flex-row">
             <div>
-              <v-icon x-large left class="mt-3">mdi-diamond-stone</v-icon>
+              <v-icon x-large left class="mt-3" color="yellow">mdi-bell-outline</v-icon>
             </div>
             <div class="float-left pa-1">
-              <h4>Support 24/7</h4>
+              <h4 class="indigo--text text--darken-4">Notifications</h4>
               <p>Utise wisi enim nets venias, quis tation ullamcorper nets lobotis nisle consequat.</p>
             </div>
           </div>
         </v-col>
 
-        <v-col md="4">
+        <v-col cols="12" md="4">
           <div class="d-flex flex-row">
             <div>
-              <v-icon x-large left class="mt-3">mdi-diamond-stone</v-icon>
+              <v-icon x-large left class="mt-3" color="blue">mdi-cogs</v-icon>
             </div>
             <div class="float-left pa-1">
-              <h4>Support 24/7</h4>
+              <h4 class="indigo--text text--darken-4">Accesibility</h4>
               <p>Utise wisi enim nets venias, quis tation ullamcorper nets lobotis nisle consequat.</p>
             </div>
           </div>
         </v-col>
 
-        <v-col md="4">
+        <v-col cols="12" md="4">
           <div class="d-flex flex-row">
             <div>
-              <v-icon x-large left class="mt-3">mdi-diamond-stone</v-icon>
+              <v-icon x-large left class="mt-3" color="orange">mdi-cash</v-icon>
             </div>
             <div class="float-left pa-1">
-              <h4>Support 24/7</h4>
+              <h4 class="indigo--text text--darken-4">Cost Control</h4>
               <p>Utise wisi enim nets venias, quis tation ullamcorper nets lobotis nisle consequat.</p>
             </div>
           </div>
         </v-col>
 
-        <v-col md="4">
+        <v-col cols="12" md="4">
           <div class="d-flex flex-row">
             <div>
-              <v-icon x-large left class="mt-3">mdi-diamond-stone</v-icon>
+              <v-icon x-large left class="mt-3" color="green">mdi-message-text</v-icon>
             </div>
             <div class="float-left pa-1">
-              <h4>Support 24/7</h4>
+              <h4 class="indigo--text text--darken-4">Chat With Friends</h4>
               <p class="text-start">Utise wisi enim nets venias, quis tation ullamcorper nets lobotis nisle consequat.</p>
             </div>
           </div>
