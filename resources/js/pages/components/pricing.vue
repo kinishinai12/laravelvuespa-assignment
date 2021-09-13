@@ -5,7 +5,7 @@
       <h2 class="text-center text-h4 font-weight-medium indigo--text text--darken-4 mt-12">Pricing for every business, at any stage</h2>
       <v-row class="mt-1">
         <v-col cols="12" md="4">
-          <v-card :loading="loading" class="mx-auto my-12" max-width="324">
+          <v-card :loading="loading" class="mx-auto my-12" :width="width">
 
             <p class="text-center indigo--text text--darken-4 pt-10 text-h5">BASIC</p>
 
@@ -39,7 +39,7 @@
         </v-col>
 
         <v-col cols="12" md="4">
-          <v-card :loading="loading" class="mx-auto my-12" max-width="324">
+          <v-card :loading="loading" class="mx-auto my-12" :width="width">
 
             <p class="text-center indigo--text text--darken-4 pt-10 text-h5">STANDARD</p>
 
@@ -74,7 +74,7 @@
 
 
         <v-col cols="12" md="4">
-          <v-card :loading="loading" class="mx-auto my-12" max-width="324">
+          <v-card :loading="loading" class="mx-auto my-12" :width="width">
 
             <p class="text-center indigo--text pt-10 text-h5">PRO</p>
 
@@ -224,7 +224,16 @@
 
 <script>
 export default {
-  name: 'pricing'
+  name: 'pricing',
+  computed: {
+   width() {
+    switch (this.$vuetify.breakpoint.name) {
+      case 'sm': return 400
+      case 'md': return 324
+    }
+  },
+
+}
 }
 </script>
 

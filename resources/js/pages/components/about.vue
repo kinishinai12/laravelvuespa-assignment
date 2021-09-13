@@ -127,42 +127,42 @@
     <h1 class="text-center text-h4 font-weight-medium indigo--text text--darken-4 mb-12">Trusted By Over 9,000+ Businesses</h1>
 
     <v-row class="d-flex justify-center mb-5">
-      <v-col cols="12" md="2">
+      <v-col cols="12" md="2" class="d-flex justify-center">
         <v-hover v-slot="{ hover }" open-delay="200">
-          <v-card class="d-flex justify-center pa-5" width="110" :elevation="hover ? 16 : 2" :class="{ 'on-hover': hover }">
-            <v-img max-width="100" src="https://picsum.photos/id/237/316/95"></v-img>
+          <v-card  class="d-flex justify-center pa-5" :width="width" :elevation="hover ? 16 : 2" :class="{ 'on-hover': hover }">
+            <v-img :width="width" src="https://picsum.photos/id/237/316/95"></v-img>
           </v-card>
         </v-hover>
       </v-col>
 
-      <v-col cols="12" md="2">
+      <v-col cols="12" md="2" class="d-flex justify-center">
         <v-hover v-slot="{ hover }" open-delay="200">
-          <v-card class="d-flex justify-center pa-5" width="110" :elevation="hover ? 16 : 2" :class="{ 'on-hover': hover }">
-            <v-img max-width="100" src="https://picsum.photos/id/237/316/95"></v-img>
+          <v-card  class="d-flex justify-center pa-5" :width="width" :elevation="hover ? 16 : 2" :class="{ 'on-hover': hover }">
+            <v-img :width="width" src="https://picsum.photos/id/237/316/95"></v-img>
           </v-card>
         </v-hover>
       </v-col>
 
-      <v-col cols="12" md="2" >
+      <v-col cols="12" md="2" class="d-flex justify-center">
         <v-hover v-slot="{ hover }" open-delay="200">
-          <v-card class="d-flex justify-center pa-5" width="110" :elevation="hover ? 16 : 2" :class="{ 'on-hover': hover }">
-            <v-img max-width="100" src="https://picsum.photos/id/237/316/95"></v-img>
+          <v-card  class="d-flex justify-center pa-5" :width="width" :elevation="hover ? 16 : 2" :class="{ 'on-hover': hover }">
+            <v-img :width="width" src="https://picsum.photos/id/237/316/95"></v-img>
           </v-card>
         </v-hover>
       </v-col>
 
-      <v-col cols="12" md="2" >
+      <v-col cols="12" md="2" class="d-flex justify-center">
         <v-hover v-slot="{ hover }" open-delay="200">
-          <v-card class="d-flex justify-center pa-5" width="110" :elevation="hover ? 16 : 2" :class="{ 'on-hover': hover }">
-            <v-img max-width="100" src="https://picsum.photos/id/237/316/95"></v-img>
+         <v-card  class="d-flex justify-center pa-5" :width="width" :elevation="hover ? 16 : 2" :class="{ 'on-hover': hover }">
+            <v-img :width="width" src="https://picsum.photos/id/237/316/95"></v-img>
           </v-card>
         </v-hover>
       </v-col>
 
-      <v-col cols="12" md="2">
+      <v-col cols="12" md="2" class="d-flex justify-center">
         <v-hover v-slot="{ hover }" open-delay="200">
-          <v-card class="d-flex justify-center pa-5" width="110" :elevation="hover ? 16 : 2" :class="{ 'on-hover': hover }">
-            <v-img max-width="100" src="https://picsum.photos/id/237/316/95"></v-img>
+         <v-card  class="d-flex justify-center pa-5" :width="width" :elevation="hover ? 16 : 2" :class="{ 'on-hover': hover }">
+            <v-img :width="width" src="https://picsum.photos/id/237/316/95"></v-img>
           </v-card>
         </v-hover>
       </v-col>
@@ -171,32 +171,32 @@
     <v-row class="d-flex justify-center">
       <v-col cols="12" md="2" class="d-flex justify-center">
         <v-hover v-slot="{ hover }" open-delay="200">
-          <v-card class="d-flex justify-center pa-5" width="110" :elevation="hover ? 16 : 2" :class="{ 'on-hover': hover }">
-            <v-img max-width="100" src="https://picsum.photos/id/237/316/95"></v-img>
+          <v-card  class="d-flex justify-center pa-5" :width="width" :elevation="hover ? 16 : 2" :class="{ 'on-hover': hover }">
+            <v-img :width="width" src="https://picsum.photos/id/237/316/95"></v-img>
           </v-card>
         </v-hover>
       </v-col>
 
       <v-col cols="12" md="2" class="d-flex justify-center">
         <v-hover v-slot="{ hover }" open-delay="200">
-          <v-card class="d-flex justify-center pa-5" width="110" :elevation="hover ? 16 : 2" :class="{ 'on-hover': hover }">
-            <v-img max-width="100" src="https://picsum.photos/id/237/316/95"></v-img>
+          <v-card  class="d-flex justify-center pa-5" :width="width" :elevation="hover ? 16 : 2" :class="{ 'on-hover': hover }">
+            <v-img :width="width" src="https://picsum.photos/id/237/316/95"></v-img>
           </v-card>
         </v-hover>
       </v-col>
 
       <v-col cols="12" md="2" class="d-flex justify-center">
         <v-hover v-slot="{ hover }" open-delay="200">
-          <v-card class="d-flex justify-center pa-5" width="110" :elevation="hover ? 16 : 2" :class="{ 'on-hover': hover }">
-            <v-img max-width="100" src="https://picsum.photos/id/237/316/95"></v-img>
+          <v-card  class="d-flex justify-center pa-5" :width="width" :elevation="hover ? 16 : 2" :class="{ 'on-hover': hover }">
+            <v-img :width="width" src="https://picsum.photos/id/237/316/95"></v-img>
           </v-card>
         </v-hover>
       </v-col>
 
       <v-col cols="12" md="2" class="d-flex justify-center">
         <v-hover v-slot="{ hover }" open-delay="200">
-          <v-card class="d-flex justify-center pa-5" width="110" :elevation="hover ? 16 : 2" :class="{ 'on-hover': hover }">
-            <v-img max-width="100" src="https://picsum.photos/id/237/316/95"></v-img>
+          <v-card  class="d-flex justify-center pa-5" :width="width" :elevation="hover ? 16 : 2" :class="{ 'on-hover': hover }">
+            <v-img :width="width" src="https://picsum.photos/id/237/316/95"></v-img>
           </v-card>
         </v-hover>
       </v-col>
@@ -304,6 +304,21 @@
 <script>
 export default {
   name:'about',
+  computed: {
+   width() {
+    switch (this.$vuetify.breakpoint.name) {
+      case 'sm': return 510
+      case 'md': return 110
+    }
+  },
+  width1() {
+    switch (this.$vuetify.breakpoint.name) {
+      case 'sm': return 500
+      case 'md': return 100
+    }
+  },
+
+}
 
 }
 </script>

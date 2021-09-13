@@ -5,8 +5,8 @@
       <v-row class="mt-12">
 
         <v-col cols="12" md="4">
-          <v-card class="mx-auto" max-width="350">
-            <v-img width="350" src="https://cdn.vuetifyjs.com/images/cards/cooking.png"></v-img>
+          <v-card class="mx-auto" :width="width">
+            <v-img :width="width" src="https://cdn.vuetifyjs.com/images/cards/cooking.png"></v-img>
           </v-card>
           <div class="pa-5">
             <h3 class="text-center text-h6 font-weight-medium indigo--text text--darken-4">Christina Hawkings</h3>
@@ -38,8 +38,8 @@
         </v-col>
 
         <v-col cols="12" md="4">
-          <v-card class="mx-auto" max-width="350">
-            <v-img width="350" src="https://cdn.vuetifyjs.com/images/cards/cooking.png"></v-img>
+          <v-card class="mx-auto" :width="width">
+            <v-img :width="width" src="https://cdn.vuetifyjs.com/images/cards/cooking.png"></v-img>
           </v-card>
 
           <div class="pa-5">
@@ -72,8 +72,8 @@
         </v-col>
 
         <v-col cols="12" md="4">
-          <v-card class="mx-auto" max-width="350">
-            <v-img width="350" src="https://cdn.vuetifyjs.com/images/cards/cooking.png"></v-img>
+          <v-card class="mx-auto" :width="width">
+            <v-img :width="width" src="https://cdn.vuetifyjs.com/images/cards/cooking.png"></v-img>
           </v-card>
 
           <div class="pa-5">
@@ -113,5 +113,14 @@
 <script>
 export default {
   name: 'ourteam',
+  computed: {
+   width() {
+    switch (this.$vuetify.breakpoint.name) {
+      case 'sm': return 500
+      case 'md': return 350
+    }
+  },
+
+}
 }
 </script>

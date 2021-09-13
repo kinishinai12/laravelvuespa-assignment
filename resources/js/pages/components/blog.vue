@@ -7,8 +7,8 @@
         <v-col cols="12" md="4">
 
           <v-hover v-slot="{ hover }" open-delay="200">
-            <v-card class="mx-auto" max-width="350" :elevation="hover ? 16 : 2" :class="{ 'on-hover': hover }">
-              <v-img width="350" src="https://cdn.vuetifyjs.com/images/cards/cooking.png"></v-img>
+            <v-card class="mx-auto" :width="width" :elevation="hover ? 16 : 2" :class="{ 'on-hover': hover }">
+              <v-img :width="width" src="https://cdn.vuetifyjs.com/images/cards/cooking.png"></v-img>
               <v-card-title class="pb-0">The Guide To LinkedIn Ads</v-card-title>
 
               <div class="pl-5 pt-0">
@@ -26,8 +26,8 @@
         <v-col cols="12" md="4">
 
           <v-hover v-slot="{ hover }" open-delay="200">
-          <v-card class="mx-auto" max-width="350" :elevation="hover ? 16 : 2" :class="{ 'on-hover': hover }">
-              <v-img width="350" src="https://cdn.vuetifyjs.com/images/cards/cooking.png"></v-img>
+          <v-card class="mx-auto" :width="width" :elevation="hover ? 16 : 2" :class="{ 'on-hover': hover }">
+              <v-img :width="width" src="https://cdn.vuetifyjs.com/images/cards/cooking.png"></v-img>
               <v-card-title class="pb-0">Affinity Designer Quick Start</v-card-title>
 
               <div class="pl-5 pt-0">
@@ -45,8 +45,8 @@
         <v-col cols="12" md="4">
 
           <v-hover v-slot="{ hover }" open-delay="200">
-            <v-card class="mx-auto" max-width="350" :elevation="hover ? 16 : 2" :class="{ 'on-hover': hover }">
-              <v-img width="350" src="https://cdn.vuetifyjs.com/images/cards/cooking.png"></v-img>
+            <v-card class="mx-auto" :width="width" :elevation="hover ? 16 : 2" :class="{ 'on-hover': hover }">
+              <v-img :width="width" src="https://cdn.vuetifyjs.com/images/cards/cooking.png"></v-img>
               <v-card-title class="pb-0">Our Happy Team</v-card-title>
 
               <div class="pl-5 pt-0">
@@ -67,5 +67,14 @@
 <script>
 export default {
   name: 'blog',
+  computed: {
+   width() {
+    switch (this.$vuetify.breakpoint.name) {
+      case 'sm': return 500
+      case 'md': return 350
+    }
+  },
+
+}
 }
 </script>
