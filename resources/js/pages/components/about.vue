@@ -1,5 +1,5 @@
 <template>
-<v-sheet>
+<v-sheet id="about" class="mt-16">
   <!-- start of how it works(1) -->
   <v-container class="pt-16 pb-16">
     <p class="text-center text-h4 font-weight-medium indigo--text text--darken-4">How It Works</p>
@@ -60,7 +60,7 @@
         <v-carousel class="mt-12" cycle="true" :show-arrows="false" vertical-delimiters="right" height="365" hide-delimiter-background>
           <v-carousel-item>
             <v-row>
-              <v-col md="6" class="">
+              <v-col md="6" >
                   <v-card class="d-flex justify-center" max-width="600" max-height="400" rounded="true">
                     <iframe width="560" height="365" src="https://www.youtube.com/embed/bsrBPgikjsk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                   </v-card>
@@ -315,6 +315,12 @@ export default {
     switch (this.$vuetify.breakpoint.name) {
       case 'sm': return 500
       case 'md': return 100
+    }
+  },
+  width2() {
+    switch (this.$vuetify.breakpoint.name) {
+      case 'sm': return 100
+      case 'md': return 500
     }
   },
 

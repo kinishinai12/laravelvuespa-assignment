@@ -1,6 +1,10 @@
 <template>
   <v-app>
-    <custom-toolbar/>
+
+    <v-app-bar height="90" flat color="white">
+      <custom-toolbar/>
+    </v-app-bar>
+
     <custom-home/>
     <custom-about/>
     <custom-our-team/>

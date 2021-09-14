@@ -28,8 +28,8 @@
                 <v-icon color="indigo">mdi-google</v-icon>
               </v-btn>
 
-              <v-btn icon>
-                <v-icon color="indigo">mdi-github</v-icon>
+              <v-btn icon color="indigo">
+                <i class="fab fa-github fa-2x"></i>
               </v-btn>
 
             </v-toolbar>

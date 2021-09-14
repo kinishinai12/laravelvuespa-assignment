@@ -5,6 +5,9 @@ import routes from './routes'
 import Router from 'vue-router'
 import { sync } from 'vuex-router-sync'
 
+import '@fortawesome/fontawesome-free/css/all.css'
+import '@fortawesome/fontawesome-free/js/all.js'
+
 Vue.use(Meta)
 Vue.use(Router)
 

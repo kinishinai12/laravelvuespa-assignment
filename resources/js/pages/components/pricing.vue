@@ -1,5 +1,5 @@
 <template>
-  <v-sheet>
+  <v-sheet id="pricing">
     <!-- Pricing for every business, at any stage section -->
     <v-container class="pa-1 mb-12">
       <h2 class="text-center text-h4 font-weight-medium indigo--text text--darken-4 mt-12">Pricing for every business, at any stage</h2>

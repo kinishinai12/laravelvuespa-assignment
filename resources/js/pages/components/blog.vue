@@ -1,5 +1,5 @@
 <template>
-  <v-sheet>
+  <v-sheet id="blog">
     <v-container class="pt-16 pb-16">
       <h1 class="text-center text-h4 font-weight-medium indigo--text text--darken-4">Our Blog</h1>
       <v-row class="mt-10">

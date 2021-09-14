@@ -1,5 +1,5 @@
 <template>
-  <v-sheet color="#E8EAF6">
+  <v-sheet color="#E8EAF6" id="howitworks">
     <v-container class="pa-16 mb-12">
       <v-row>
         <!-- first v-col -->

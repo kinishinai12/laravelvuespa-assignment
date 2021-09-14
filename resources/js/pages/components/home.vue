@@ -1,6 +1,6 @@
 <template>
-  <v-sheet>
-    <div class="pa-5" :style="{'background': '#1E88E5'}"></div>
+  <v-sheet id="home">
+
     <div :style="{'background': '#1E88E5'}" class="pb-12">
     <v-container class="pa-1">
       <v-row>
