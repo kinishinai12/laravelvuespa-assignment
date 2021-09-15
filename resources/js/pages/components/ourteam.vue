@@ -1,5 +1,5 @@
 <template>
-  <v-sheet id="ourteam">
+  <v-sheet class="mt-16">
     <v-container class="pa-12">
       <h1 class="text-center text-h4 font-weight-medium indigo--text text--darken-4">Meet Our Team</h1>
       <v-row class="mt-12">

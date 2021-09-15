@@ -28,7 +28,7 @@
                 <v-icon color="indigo">mdi-google</v-icon>
               </v-btn>
 
-              <v-btn icon color="indigo">
+              <v-btn icon color="pink">
                 <i class="fab fa-github fa-2x"></i>
               </v-btn>
 

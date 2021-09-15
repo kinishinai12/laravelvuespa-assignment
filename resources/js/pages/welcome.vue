@@ -1,18 +1,36 @@
 <template>
-  <v-app>
+  <v-app app>
 
-    <v-app-bar height="90" flat color="white">
-      <custom-toolbar/>
-    </v-app-bar>
+    <custom-toolbar/>
 
     <custom-home/>
-    <custom-about/>
-    <custom-our-team/>
-    <custom-how-it-works/>
-    <custom-pricing/>
-    <custom-blog/>
-    <custom-contact/>
+
+    <section id="about">
+      <custom-about/>
+    </section>
+
+    <section id="ourteam">
+      <custom-our-team/>
+    </section>
+
+    <section id="howitworks">
+      <custom-how-it-works/>
+    </section>
+
+    <section id="pricing">
+      <custom-pricing/>
+    </section>
+
+    <section id="blog">
+      <custom-blog/>
+    </section>
+
+    <section id="contact">
+      <custom-contact/>
+    </section>
+
     <custom-footer/>
+
   </v-app>
 </template>
 
@@ -60,6 +78,7 @@ export default {
 *{
   font-family: 'Nunito', sans-serif;
 }
+
 </style>
 
 

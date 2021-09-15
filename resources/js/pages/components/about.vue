@@ -1,5 +1,5 @@
 <template>
-<v-sheet id="about" class="mt-16">
+<v-sheet class="mt-16">
   <!-- start of how it works(1) -->
   <v-container class="pt-16 pb-16">
     <p class="text-center text-h4 font-weight-medium indigo--text text--darken-4">How It Works</p>
