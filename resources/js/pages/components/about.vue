@@ -57,16 +57,16 @@
   <!-- how it works (2) -->
   <div :style="{'background': '#E8EAF6'}">
     <v-container class="pt-16 pb-16 pr-10 pl-10">
-        <v-carousel class="mt-12" cycle="true" :show-arrows="false" vertical-delimiters="right" height="365" hide-delimiter-background>
-          <v-carousel-item>
+        <v-carousel class="mt-12 custom" cycle :show-arrows="false" vertical-delimiters="right" :height="height" hide-delimiter-background>
+          <v-carousel-item >
             <v-row>
-              <v-col md="6" >
-                  <v-card class="d-flex justify-center" max-width="600" max-height="400" rounded="true">
+              <v-col cols="12" md="6" >
+
                     <iframe width="560" height="365" src="https://www.youtube.com/embed/bsrBPgikjsk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                  </v-card>
+
               </v-col>
-              <v-col md="6" class="pt-9">
-                  <div class="pt-16">
+              <v-col cols="12" md="6" class="pt-9">
+                  <div class="pt-12 ml-5">
                     <v-icon color="green" x-large>mdi-comment-quote-outline</v-icon>
 
                     <p class="mr-12 pr-12 text--secondary text-display-3">Nemo enimat ipsam voluptatem quia voluptas situm ets aspernatis netsum loris fugit, sed quia magnitus honoratis quis ratione sequi etum nets.</p>
@@ -79,13 +79,13 @@
 
           <v-carousel-item>
             <v-row>
-              <v-col md="6" class="">
-                  <v-card class="d-flex justify-center" max-width="600" max-height="400" rounded="true">
+              <v-col md="6">
+
                     <iframe width="560" height="365" src="https://www.youtube.com/embed/bsrBPgikjsk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                  </v-card>
+
               </v-col>
               <v-col md="6" class="pt-9">
-                  <div class="pt-16">
+                  <div class="pt-12 ml-5">
                     <v-icon color="green" x-large>mdi-comment-quote-outline</v-icon>
 
                     <p class="mr-12 pr-12 text--secondary text-display-3">Nemo enimat ipsam voluptatem quia voluptas situm ets aspernatis netsum loris fugit, sed quia magnitus honoratis quis ratione sequi etum nets.</p>
@@ -99,12 +99,12 @@
           <v-carousel-item>
             <v-row>
               <v-col md="6" class="">
-                  <v-card class="d-flex justify-center" max-width="600" max-height="400" rounded="true">
+
                     <iframe width="560" height="365" src="https://www.youtube.com/embed/bsrBPgikjsk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                  </v-card>
+
               </v-col>
               <v-col md="6" class="pt-9">
-                  <div class="pt-16">
+                  <div class="pt-12 ml-5">
                     <v-icon color="green" x-large>mdi-comment-quote-outline</v-icon>
 
                     <p class="mr-12 pr-12 text--secondary text-display-3">Nemo enimat ipsam voluptatem quia voluptas situm ets aspernatis netsum loris fugit, sed quia magnitus honoratis quis ratione sequi etum nets.</p>
@@ -324,13 +324,32 @@ export default {
     }
   },
 
+  height() {
+    switch (this.$vuetify.breakpoint.name) {
+      case 'sm': return 600
+      case 'md': return 365
+      case 'lg': return 365
+    }
+  },
+
+  //
+  //
+
 }
 
 }
 </script>
 
-<style scoped>
-li{
-  list-style-type: none;
+<style>
+  li{
+    list-style-type: none;
+  }
+  .custom .v-carousel__controls__item.v-btn {
+  color: white;
+  }
+
+  .custom .v-carousel__controls__item.v-btn.v-btn--active {
+  color: red;
 }
+
 </style>
