@@ -3,7 +3,12 @@
 
 DAILY UPDATE:
 
-Latest update: Navigation drawer, fixing the design of the other components.
+16/09/2021 update: carousel responsiveness
+
+![Capture11](https://user-images.githubusercontent.com/51391240/133587087-90df7acb-001f-4210-9010-a5dd7c0f81fa.JPG)
+![Capture12](https://user-images.githubusercontent.com/51391240/133587095-46d78342-ebcd-45c1-a5e4-2beb192787f6.JPG)
+
+15/09/2021 update: Navigation drawer, fixing the design of the other components.
 
 ![header](https://user-images.githubusercontent.com/51391240/133416074-51646b79-4ab5-4e18-b181-20af6875b5a7.JPG)
 
