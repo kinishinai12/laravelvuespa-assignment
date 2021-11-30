@@ -1,5 +1,5 @@
 # laravelvuespa-assignment
-
+This is a smart clone project using vue and vuetify
 
 DAILY UPDATE:
 
